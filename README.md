@@ -1,24 +1,30 @@
-# Full Stack AI Fianace Platform with Next JS, Supabase, Tailwind, Prisma, Inngest, ArcJet, Shadcn UI Tutorial 🔥🔥
-## https://youtu.be/egS6fnZAdzk
+ AI Finance Platform
 
-<img width="1470" alt="Screenshot 2024-12-10 at 9 45 45 AM" src="https://github.com/user-attachments/assets/1bc50b85-b421-4122-8ba4-ae68b2b61432">
+This is an AI-powered finance platform where users can upload financial documents (like PDFs or CSVs) and get meaningful insights and summaries using OpenAI's GPT. The goal is to help users understand financial data more easily, whether it's for analysis, reporting, or decision-making.
 
-### Make sure to create a `.env` file with following variables -
+The project is built using the MERN stack (MongoDB, Express, React, Node.js), and includes features like file upload, secure login, data visualization, and a chatbot interface.
 
-```
-DATABASE_URL=
-DIRECT_URL=
+ Main Features
 
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
-NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/onboarding
+- Upload financial files (PDF, CSV)
+- Generate AI-based summaries and insights using OpenAI API
+- Ask questions about your data through a built-in chatbot
+- Visualize important financial trends and metrics
+- Secure login and registration system using JWT
+- Clean and responsive frontend built with React and Tailwind CSS
 
-GEMINI_API_KEY=
 
-RESEND_API_KEY=
+Technologies Used
 
-ARCJET_KEY=
-```
+**Frontend:**
+- React.js
+- Tailwind CSS
+- Chart.js
+
+**Backend:**
+- Node.js
+- Express.js
+- MongoDB Atlas
+- OpenAI API
+- JWT Authentication
+- Multer (for file uploads)
